@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIPOS DE INPUT</title>
+</head>
+<body>
+    <!-- tipos de input-->
+    <h3>Entras de texto</h3>
+    <input type="text" name="first_name">
+    <br>
+    <h3>Entradas numéricas</h3>
+    <input type="number" name="age">
+    <br>
+    <h3>Contraseñas</h3>
+    <input type="password" name="password">
+    <br>
+    <h3>Fechas</h3>
+    <h5>La entrada de fecha no es compatible con todos los navegadores.</h5>
+    <input type="date" name="dob">
+    <br>
+    <h3>Color</h3>
+    <input type="color" name="text_color">
+    <br>
+    <h3>Correo electrónico</h3>
+    <input type="email" name="email">
+    <br>
+    <h3>URL</h3>
+    <input type="url" name="website">
+    <br>
+    <h3>Botón de radio</h3>
+    <h5>La inclusión de los atributos "id" y "for" permite hacer clic en el texto de la etiqueta para cambiar las entradas.</h5>
+    <input type="radio" name="font" value="bold" id="bold">
+    <label for="bold"><strong>Negrita</strong></label>
+    <input type="radio" name="font" value="normal" id="normal">
+    <label for="normal">Normal</label>
+    <br>
+    <h3>Casilla de verificación</h3>
+    <input type="checkbox" name="accept" id="accept">
+    <label for="accept">Estoy de acuerdo</label>
+    <br>
+    <h3>Área de texto</h3>
+    <textarea name="comment" cols="20" rows="3"></textarea>
+    <br>
+    <h3>Seleccionar</h3>
+    <select name="estaciones">
+        <option>Invierno</option>
+        <option>Primavera</option>
+        <option>Verano</option>
+        <option>Otoño</option>
+    </select>
+    <br>
+    <h3>Enviar</h3>
+    <input type="submit" value="Enviar">
+    <br>
+    <h3>Restablecer</h3>
+    <input type="reset" value="Restablecer">
+    <br>
+    <h3>Botón</h3>
+    <input type="button" value="Haga clic aquí">
+    <br>
+    <h3>Imagen</h3>
+    <input type="image" src="https://www.w3schools.com/tags/smiley.gif" alt="Smiley face" width="32" height="32">
+    <br>
+    <h3>Archivo</h3>
+    <input type="file" name="pic" accept="image/*">
+    <br>
+    <h3>Botón oculto</h3>
+    <input type="hidden" name="user_id" value="123">
+    <br>
+    <h3>Botón de reinicio</h3>
+    <input type="button" value="Reiniciar" onclick="window.location.reload();">
+    <br>
+    
+</body>
+</html>
